@@ -13,5 +13,5 @@ module.exports = (robot) ->
           amount_dest = amount * rate
           msg.send "#{amount} SGD is #{amount_dest.toFixed(2)} #{dest_currency}."
         else
-          msg.send "Sorry, the API is down or youe entered a bad currency"
+          msg.send "Sorry, the API is down or you have entered a bad currency"
 
